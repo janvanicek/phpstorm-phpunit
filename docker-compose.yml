@@ -1,0 +1,9 @@
+services:
+  dev:
+    build:
+      context: .
+      target: dev
+    environment:
+      APP_ENV: dev
+    volumes:
+      - .:/app
